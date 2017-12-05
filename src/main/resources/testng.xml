@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Maven Suite" parallel="classes">
+  <test name="Test Maven Testing">
+  
+  <packages>
+  <package name="com.qa.tests.*"></package>
+  </packages>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+
+<!--  <parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="webdriverpoi.Multibrowser"/>
+    </classes>-->
