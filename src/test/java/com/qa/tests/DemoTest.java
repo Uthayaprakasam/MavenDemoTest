@@ -34,8 +34,8 @@ public class DemoTest {
 	{
 		System.out.println("MUL");
 		int a=10;
-		int b=20;
-		Assert.assertEquals(200,a*b);
+		int b=30;
+		Assert.assertEquals(300,a*b);
 	}
 	
 	
